@@ -72,6 +72,7 @@ document.querySelector("#play-again").addEventListener("click", ()=>{
     document.querySelector(".bg").style.left = "0";
     document.querySelector("#results").innerHTML = "";
     document.querySelector("#play-again").style.display = "none";
+    document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0";
 
     boxes.forEach(e =>{
         e.innerHTML = "";
